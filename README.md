@@ -1,4 +1,5 @@
 # customer-churn-prediction
+![Tests](https://github.com/Imaneimy/customer-churn-prediction/actions/workflows/tests.yml/badge.svg)
 
 Churn prediction was the core topic of my final-year project at ENSAM Meknes. This is a standalone version of that work — no notebook sprawl, just a clean Python pipeline that goes from raw customer data to a trained logistic regression model with evaluation charts.
 
