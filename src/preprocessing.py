@@ -40,3 +40,7 @@ def churn_rate_by_segment(df: pd.DataFrame, segment: str) -> pd.DataFrame:
         .sort_values("churn_rate_pct", ascending=False)
         .reset_index()
     )
+
+def class_balance(df) -> dict:
+    counts = df['churn'].value_counts()
+    return counts.to_dict()
