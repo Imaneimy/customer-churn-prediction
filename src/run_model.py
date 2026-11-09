@@ -4,7 +4,9 @@ Entry point: preprocess, train, evaluate, plot.
 
 from pathlib import Path
 from preprocessing import load_customers, encode_features, get_feature_matrix, churn_rate_by_segment
-from model import split_data, train_model, evaluate_model, feature_importance
+from model import (
+    split_data, train_model, evaluate_model, feature_importance, cross_validated_auc, score_customers,
+)
 from visualizations import (
     plot_churn_distribution,
     plot_churn_by_contract,
@@ -41,6 +43,9 @@ def main():
     print(f"\nModel: Logistic Regression")
     print(f"Accuracy : {results['accuracy']}")
     print(f"ROC-AUC  : {results['roc_auc']}")
+    print(f"Churners caught (recall): {results['recall_churn']:.0%}")
+    cv_mean, cv_std = cross_validated_auc(X, y)
+    print(f"5-fold ROC-AUC: {cv_mean} ± {cv_std}")
     print("\nClassification Report:")
     print(results["classification_report"])
 
@@ -54,7 +59,13 @@ def main():
     plot_feature_importance(imp, str(REPORTS / "feature_importance.png"))
     plot_confusion_matrix(results["confusion_matrix"], str(REPORTS / "confusion_matrix.png"))
 
-    print(f"\nCharts saved to {REPORTS}/")
+    scored = score_customers(clf, scaler, df, X)
+    scored.to_csv(REPORTS / "customers_scored.csv", index=False)
+    print("\n--- Retention priority list ---")
+    print(scored["risk_band"].value_counts().reindex(["High", "Medium", "Low"]).to_string())
+    print(scored.head(5).to_string(index=False))
+
+    print(f"\nCharts and customers_scored.csv saved to {REPORTS}/")
 
 
 if __name__ == "__main__":

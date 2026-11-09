@@ -1,0 +1,501 @@
+customer_id,contract,tenure,monthly_charges,churn,churn_probability,risk_band
+C0127,Month-to-month,48,26.91,Yes,0.906,High
+C0285,Month-to-month,8,79.62,Yes,0.898,High
+C0126,Month-to-month,9,59.8,Yes,0.896,High
+C0334,Month-to-month,40,90.93,Yes,0.882,High
+C0349,One year,13,77.99,Yes,0.863,High
+C0287,Month-to-month,27,47.75,Yes,0.86,High
+C0298,Month-to-month,23,23.42,Yes,0.86,High
+C0072,Month-to-month,30,90.9,Yes,0.859,High
+C0329,Month-to-month,14,25.75,Yes,0.857,High
+C0308,Month-to-month,25,82.75,Yes,0.857,High
+C0370,Month-to-month,21,81.51,Yes,0.855,High
+C0383,Month-to-month,3,80.6,Yes,0.851,High
+C0081,Month-to-month,15,105.24,No,0.849,High
+C0063,Month-to-month,32,79.76,Yes,0.837,High
+C0087,Month-to-month,34,76.09,No,0.831,High
+C0480,Month-to-month,35,61.85,Yes,0.829,High
+C0038,Month-to-month,41,74.56,No,0.827,High
+C0120,Month-to-month,16,64.76,Yes,0.824,High
+C0134,Month-to-month,13,89.38,No,0.823,High
+C0317,Month-to-month,13,70.64,Yes,0.819,High
+C0454,Month-to-month,12,75.68,Yes,0.816,High
+C0091,Month-to-month,33,42.98,No,0.815,High
+C0067,Month-to-month,57,36.59,Yes,0.814,High
+C0277,Month-to-month,22,34.16,Yes,0.811,High
+C0471,Month-to-month,8,51.31,No,0.808,High
+C0190,Month-to-month,18,49.12,No,0.802,High
+C0202,Month-to-month,5,73.8,Yes,0.798,High
+C0336,Month-to-month,26,56.83,No,0.792,High
+C0456,Month-to-month,18,100.88,No,0.791,High
+C0343,Month-to-month,3,65.42,Yes,0.79,High
+C0131,Month-to-month,20,27.34,No,0.79,High
+C0479,Month-to-month,67,69.39,Yes,0.789,High
+C0053,Month-to-month,49,87.68,No,0.788,High
+C0306,Month-to-month,41,105.65,No,0.788,High
+C0061,Month-to-month,34,45.17,Yes,0.786,High
+C0168,Month-to-month,14,41.76,Yes,0.786,High
+C0105,One year,1,97.26,No,0.784,High
+C0212,Month-to-month,26,40.7,No,0.784,High
+C0174,Month-to-month,43,66.74,Yes,0.783,High
+C0340,Month-to-month,1,86.02,Yes,0.778,High
+C0146,Month-to-month,50,42.83,No,0.777,High
+C0231,Month-to-month,23,107.19,Yes,0.775,High
+C0109,Month-to-month,19,31.36,No,0.775,High
+C0264,Month-to-month,18,109.36,No,0.773,High
+C0315,Month-to-month,19,43.21,Yes,0.771,High
+C0376,Month-to-month,69,28.28,Yes,0.77,High
+C0397,Month-to-month,34,41.06,No,0.766,High
+C0215,One year,3,67.9,No,0.764,High
+C0389,Month-to-month,9,28.84,No,0.763,High
+C0139,Month-to-month,66,94.79,Yes,0.757,High
+C0108,Month-to-month,4,109.87,Yes,0.757,High
+C0011,Month-to-month,71,81.23,Yes,0.755,High
+C0358,Month-to-month,31,61.32,Yes,0.752,High
+C0468,Month-to-month,29,97.01,Yes,0.752,High
+C0042,Month-to-month,27,90.72,No,0.745,High
+C0347,Month-to-month,26,94.83,Yes,0.745,High
+C0346,One year,18,94.76,No,0.745,High
+C0408,Month-to-month,48,82.79,No,0.741,High
+C0447,Month-to-month,17,59.46,No,0.739,High
+C0186,Month-to-month,5,57.61,Yes,0.737,High
+C0422,Month-to-month,2,94.9,Yes,0.736,High
+C0172,Month-to-month,72,52.63,Yes,0.736,High
+C0225,One year,41,29.59,Yes,0.734,High
+C0310,Month-to-month,38,62.62,Yes,0.734,High
+C0030,Month-to-month,34,63.97,No,0.729,High
+C0201,Month-to-month,25,88.89,Yes,0.728,High
+C0232,Month-to-month,26,109.75,No,0.728,High
+C0442,Month-to-month,47,43.38,No,0.727,High
+C0106,Month-to-month,46,73.0,No,0.726,High
+C0121,Month-to-month,59,97.59,Yes,0.72,High
+C0411,Month-to-month,33,96.95,Yes,0.716,High
+C0206,Month-to-month,29,97.18,No,0.715,High
+C0341,Month-to-month,40,25.88,No,0.714,High
+C0409,Month-to-month,33,88.93,Yes,0.711,High
+C0432,Two year,13,87.01,No,0.708,High
+C0255,One year,51,32.8,No,0.705,High
+C0426,Month-to-month,17,67.32,No,0.705,High
+C0324,One year,31,63.99,No,0.704,High
+C0262,Month-to-month,29,81.2,No,0.704,High
+C0269,Month-to-month,10,99.99,Yes,0.699,High
+C0023,Month-to-month,38,107.18,No,0.697,High
+C0185,Month-to-month,61,78.55,No,0.697,High
+C0461,Month-to-month,5,77.76,Yes,0.696,High
+C0013,Month-to-month,21,105.81,No,0.695,High
+C0414,Month-to-month,1,94.09,Yes,0.695,High
+C0167,Month-to-month,54,61.8,Yes,0.695,High
+C0462,One year,10,103.72,Yes,0.692,High
+C0191,One year,2,78.83,Yes,0.691,High
+C0352,Month-to-month,59,95.21,Yes,0.688,High
+C0401,Month-to-month,24,52.6,No,0.688,High
+C0129,Month-to-month,23,42.3,No,0.687,High
+C0270,Month-to-month,23,105.9,Yes,0.687,High
+C0062,Month-to-month,31,62.85,Yes,0.686,High
+C0390,Month-to-month,9,48.6,No,0.685,High
+C0499,Month-to-month,19,89.22,Yes,0.685,High
+C0031,Month-to-month,43,77.34,Yes,0.685,High
+C0450,Month-to-month,5,61.48,No,0.683,High
+C0189,One year,25,74.99,No,0.681,High
+C0251,One year,32,98.73,No,0.678,High
+C0311,Month-to-month,49,36.79,No,0.677,High
+C0489,Month-to-month,35,71.03,Yes,0.673,High
+C0193,One year,28,81.23,No,0.669,High
+C0069,One year,49,101.77,No,0.668,High
+C0046,Month-to-month,32,61.08,No,0.666,High
+C0429,Month-to-month,48,96.89,No,0.666,High
+C0133,Month-to-month,3,47.8,No,0.666,High
+C0036,Month-to-month,30,22.13,No,0.662,High
+C0438,Month-to-month,4,67.16,Yes,0.662,High
+C0154,Month-to-month,21,32.85,Yes,0.658,High
+C0096,Month-to-month,17,98.88,No,0.655,High
+C0066,Month-to-month,69,44.69,No,0.654,High
+C0005,Month-to-month,38,75.67,Yes,0.651,High
+C0303,One year,14,32.66,No,0.651,High
+C0209,Month-to-month,2,104.34,Yes,0.649,High
+C0171,Month-to-month,61,68.3,Yes,0.648,High
+C0261,Month-to-month,40,82.95,Yes,0.647,High
+C0217,Month-to-month,52,70.85,Yes,0.647,High
+C0018,Month-to-month,31,80.21,No,0.646,High
+C0280,Two year,9,97.94,Yes,0.646,High
+C0010,Month-to-month,12,97.5,No,0.644,High
+C0004,Month-to-month,45,43.81,No,0.642,High
+C0142,Month-to-month,20,104.62,Yes,0.641,High
+C0419,One year,34,56.64,No,0.64,High
+C0075,Month-to-month,30,95.24,No,0.639,High
+C0140,Month-to-month,31,109.51,Yes,0.636,High
+C0339,Month-to-month,5,37.95,No,0.636,High
+C0115,One year,35,36.24,Yes,0.634,High
+C0469,Month-to-month,34,100.07,No,0.632,High
+C0452,Month-to-month,7,39.6,Yes,0.63,High
+C0113,Month-to-month,55,24.63,No,0.629,High
+C0117,Month-to-month,42,73.66,No,0.629,High
+C0470,One year,42,35.56,No,0.628,High
+C0304,Month-to-month,34,42.46,Yes,0.627,High
+C0478,Two year,19,21.24,No,0.625,High
+C0444,Month-to-month,21,86.34,Yes,0.623,High
+C0197,Month-to-month,9,109.47,Yes,0.623,High
+C0239,Month-to-month,44,90.58,Yes,0.622,High
+C0130,Month-to-month,44,73.81,Yes,0.62,High
+C0026,One year,41,43.91,Yes,0.618,High
+C0111,Month-to-month,59,57.44,No,0.618,High
+C0344,One year,7,109.52,Yes,0.615,High
+C0022,Month-to-month,52,34.82,No,0.614,High
+C0049,Month-to-month,60,25.6,Yes,0.614,High
+C0309,Month-to-month,71,33.82,Yes,0.612,High
+C0107,Month-to-month,47,73.43,No,0.611,High
+C0286,Month-to-month,26,90.19,Yes,0.61,High
+C0338,One year,21,90.67,No,0.608,High
+C0256,Month-to-month,36,104.27,No,0.606,High
+C0166,Month-to-month,70,77.77,Yes,0.604,High
+C0024,Month-to-month,66,96.62,No,0.604,High
+C0361,Month-to-month,46,106.8,Yes,0.603,High
+C0156,Month-to-month,51,78.46,No,0.6,High
+C0428,Month-to-month,34,69.37,No,0.599,Medium
+C0244,Month-to-month,59,35.53,No,0.598,Medium
+C0170,Month-to-month,40,22.09,Yes,0.598,Medium
+C0248,Month-to-month,11,22.78,Yes,0.595,Medium
+C0181,Month-to-month,45,104.03,No,0.595,Medium
+C0235,Month-to-month,47,100.6,Yes,0.594,Medium
+C0187,Two year,2,71.12,No,0.594,Medium
+C0403,Month-to-month,66,100.17,No,0.592,Medium
+C0213,Month-to-month,46,32.6,No,0.592,Medium
+C0460,Month-to-month,67,26.0,Yes,0.59,Medium
+C0112,Month-to-month,11,58.87,No,0.589,Medium
+C0145,One year,11,107.72,No,0.586,Medium
+C0481,Month-to-month,49,107.9,Yes,0.585,Medium
+C0293,Month-to-month,36,32.35,No,0.584,Medium
+C0009,Month-to-month,59,43.84,Yes,0.583,Medium
+C0292,Month-to-month,28,44.75,No,0.58,Medium
+C0161,Month-to-month,51,84.7,Yes,0.579,Medium
+C0273,Month-to-month,51,77.09,Yes,0.579,Medium
+C0132,Month-to-month,49,91.25,No,0.578,Medium
+C0278,Month-to-month,61,54.47,Yes,0.577,Medium
+C0482,One year,3,42.27,No,0.577,Medium
+C0388,Month-to-month,24,91.97,No,0.577,Medium
+C0118,Month-to-month,55,74.64,Yes,0.576,Medium
+C0135,One year,20,36.28,No,0.576,Medium
+C0077,Month-to-month,14,49.68,Yes,0.575,Medium
+C0396,One year,18,34.33,Yes,0.569,Medium
+C0494,Month-to-month,6,66.68,Yes,0.561,Medium
+C0198,Month-to-month,18,108.05,No,0.559,Medium
+C0381,One year,10,81.74,Yes,0.559,Medium
+C0275,One year,21,105.77,Yes,0.554,Medium
+C0076,Month-to-month,57,36.33,Yes,0.551,Medium
+C0056,One year,15,106.82,No,0.547,Medium
+C0012,Month-to-month,34,88.58,No,0.546,Medium
+C0391,Month-to-month,41,90.71,No,0.545,Medium
+C0333,Month-to-month,34,92.75,No,0.542,Medium
+C0002,Month-to-month,28,65.48,No,0.535,Medium
+C0028,Month-to-month,70,47.23,No,0.534,Medium
+C0288,Month-to-month,32,55.66,No,0.534,Medium
+C0290,One year,11,72.75,Yes,0.534,Medium
+C0155,Month-to-month,5,33.81,No,0.533,Medium
+C0095,One year,6,90.97,Yes,0.53,Medium
+C0253,One year,69,73.72,No,0.529,Medium
+C0001,One year,4,44.75,No,0.528,Medium
+C0050,Month-to-month,50,68.44,Yes,0.528,Medium
+C0366,Month-to-month,32,55.81,No,0.527,Medium
+C0102,One year,36,82.13,No,0.525,Medium
+C0228,Month-to-month,64,25.69,Yes,0.523,Medium
+C0249,Month-to-month,59,86.83,No,0.522,Medium
+C0058,Month-to-month,44,96.46,No,0.52,Medium
+C0183,One year,28,94.52,No,0.516,Medium
+C0382,Month-to-month,33,26.34,No,0.515,Medium
+C0483,Month-to-month,39,109.64,No,0.514,Medium
+C0210,One year,37,61.96,Yes,0.514,Medium
+C0226,Month-to-month,72,66.12,No,0.507,Medium
+C0234,Month-to-month,20,58.08,No,0.506,Medium
+C0192,One year,38,75.32,No,0.505,Medium
+C0057,Month-to-month,32,82.75,No,0.504,Medium
+C0048,Month-to-month,43,100.37,Yes,0.503,Medium
+C0037,One year,69,104.53,Yes,0.501,Medium
+C0073,Two year,19,25.37,No,0.5,Medium
+C0150,Two year,43,31.2,No,0.5,Medium
+C0385,Month-to-month,69,32.27,No,0.495,Medium
+C0472,Month-to-month,68,48.74,No,0.493,Medium
+C0223,One year,51,22.67,No,0.491,Medium
+C0006,One year,11,97.98,No,0.488,Medium
+C0474,Month-to-month,34,55.87,No,0.488,Medium
+C0423,Month-to-month,46,100.49,Yes,0.485,Medium
+C0345,Month-to-month,49,69.26,No,0.484,Medium
+C0491,Month-to-month,53,103.29,Yes,0.48,Medium
+C0041,One year,25,79.84,No,0.478,Medium
+C0152,Month-to-month,42,27.21,No,0.477,Medium
+C0110,Month-to-month,15,78.58,No,0.477,Medium
+C0265,Month-to-month,28,87.34,No,0.477,Medium
+C0476,Month-to-month,45,78.99,No,0.476,Medium
+C0245,Month-to-month,40,36.47,No,0.476,Medium
+C0032,Month-to-month,48,69.73,No,0.476,Medium
+C0241,One year,60,91.8,No,0.474,Medium
+C0448,Month-to-month,64,61.73,No,0.474,Medium
+C0363,One year,14,24.19,No,0.473,Medium
+C0335,Month-to-month,25,30.78,Yes,0.47,Medium
+C0314,Month-to-month,58,105.42,Yes,0.469,Medium
+C0128,Month-to-month,61,33.58,No,0.469,Medium
+C0055,Month-to-month,61,30.3,No,0.463,Medium
+C0027,Month-to-month,28,43.87,No,0.462,Medium
+C0342,Month-to-month,63,87.51,Yes,0.462,Medium
+C0427,Month-to-month,16,66.64,No,0.462,Medium
+C0119,Month-to-month,40,39.85,No,0.459,Medium
+C0328,Month-to-month,60,80.95,No,0.459,Medium
+C0380,One year,27,76.66,No,0.458,Medium
+C0203,One year,8,65.35,No,0.457,Medium
+C0351,Month-to-month,57,44.15,Yes,0.455,Medium
+C0178,Month-to-month,57,57.69,No,0.453,Medium
+C0084,Month-to-month,70,60.98,No,0.453,Medium
+C0417,Two year,12,90.17,No,0.453,Medium
+C0398,Month-to-month,42,83.34,No,0.451,Medium
+C0356,Month-to-month,32,51.12,No,0.45,Medium
+C0296,Month-to-month,8,71.81,No,0.449,Medium
+C0017,Month-to-month,71,72.96,No,0.448,Medium
+C0243,Month-to-month,34,97.64,No,0.447,Medium
+C0138,Two year,7,63.25,Yes,0.442,Medium
+C0240,Month-to-month,15,96.43,No,0.441,Medium
+C0445,Month-to-month,35,78.36,Yes,0.441,Medium
+C0157,Month-to-month,34,60.16,Yes,0.44,Medium
+C0362,Month-to-month,53,42.89,No,0.437,Medium
+C0421,One year,4,30.46,No,0.436,Medium
+C0083,Month-to-month,65,93.85,No,0.435,Medium
+C0180,One year,25,45.11,No,0.434,Medium
+C0267,Month-to-month,37,22.41,No,0.434,Medium
+C0090,Month-to-month,68,70.93,No,0.433,Medium
+C0207,Month-to-month,33,49.72,Yes,0.432,Medium
+C0384,Month-to-month,39,27.79,No,0.43,Medium
+C0379,Month-to-month,38,37.33,No,0.43,Medium
+C0437,One year,33,83.06,Yes,0.429,Medium
+C0059,One year,69,61.84,No,0.428,Medium
+C0260,Two year,39,98.7,No,0.426,Medium
+C0101,Month-to-month,69,54.98,No,0.424,Medium
+C0019,Month-to-month,56,58.12,No,0.424,Medium
+C0455,One year,14,63.91,Yes,0.424,Medium
+C0071,Month-to-month,58,73.44,No,0.422,Medium
+C0294,Month-to-month,63,102.14,No,0.421,Medium
+C0236,One year,46,78.23,Yes,0.421,Medium
+C0302,Month-to-month,38,35.99,No,0.418,Medium
+C0078,Month-to-month,52,94.24,No,0.417,Medium
+C0291,Two year,12,31.03,Yes,0.416,Medium
+C0020,Month-to-month,25,60.38,No,0.415,Medium
+C0259,Month-to-month,59,31.18,No,0.412,Medium
+C0014,Two year,40,25.21,No,0.412,Medium
+C0060,Month-to-month,60,74.93,Yes,0.41,Medium
+C0153,One year,46,109.83,Yes,0.408,Medium
+C0216,Two year,23,102.62,No,0.407,Medium
+C0459,One year,69,37.09,No,0.406,Medium
+C0137,Month-to-month,57,89.25,No,0.406,Medium
+C0224,Month-to-month,49,89.5,Yes,0.406,Medium
+C0319,One year,7,62.77,No,0.405,Medium
+C0040,One year,16,101.0,No,0.403,Medium
+C0219,One year,13,102.72,No,0.403,Medium
+C0378,Month-to-month,70,45.45,No,0.403,Medium
+C0242,Month-to-month,55,20.4,No,0.401,Medium
+C0467,Month-to-month,58,106.38,No,0.401,Medium
+C0327,Month-to-month,40,107.03,No,0.399,Low
+C0372,Two year,7,86.93,No,0.398,Low
+C0147,Month-to-month,46,50.47,No,0.395,Low
+C0099,One year,48,80.74,No,0.393,Low
+C0008,One year,8,93.96,Yes,0.393,Low
+C0051,Month-to-month,44,81.12,No,0.393,Low
+C0449,Month-to-month,24,100.61,No,0.39,Low
+C0103,Month-to-month,46,55.83,No,0.382,Low
+C0337,One year,63,76.79,No,0.377,Low
+C0125,Month-to-month,58,103.17,No,0.376,Low
+C0307,Month-to-month,62,22.79,Yes,0.376,Low
+C0289,Month-to-month,14,30.93,No,0.375,Low
+C0173,Month-to-month,44,104.51,No,0.373,Low
+C0086,Month-to-month,43,98.68,No,0.372,Low
+C0320,Month-to-month,63,81.64,No,0.365,Low
+C0497,One year,21,85.99,Yes,0.364,Low
+C0238,One year,65,51.05,No,0.361,Low
+C0124,Month-to-month,19,29.25,No,0.36,Low
+C0365,One year,23,93.37,No,0.358,Low
+C0359,One year,3,56.31,No,0.358,Low
+C0025,One year,6,27.38,No,0.358,Low
+C0446,One year,58,83.04,Yes,0.357,Low
+C0123,Month-to-month,51,87.12,No,0.353,Low
+C0220,One year,36,70.72,Yes,0.353,Low
+C0089,Two year,13,34.97,No,0.353,Low
+C0485,Month-to-month,40,49.64,No,0.352,Low
+C0496,Month-to-month,70,55.38,Yes,0.352,Low
+C0439,One year,57,31.38,No,0.352,Low
+C0164,Month-to-month,71,31.27,No,0.344,Low
+C0457,Month-to-month,60,98.09,Yes,0.344,Low
+C0221,One year,51,46.93,No,0.344,Low
+C0003,One year,21,58.04,No,0.342,Low
+C0211,One year,41,53.36,No,0.339,Low
+C0458,Month-to-month,59,89.83,Yes,0.339,Low
+C0039,Month-to-month,69,84.75,No,0.334,Low
+C0233,Two year,27,91.79,No,0.331,Low
+C0194,Month-to-month,71,38.19,Yes,0.33,Low
+C0082,Month-to-month,71,54.52,No,0.33,Low
+C0143,Month-to-month,54,91.45,No,0.329,Low
+C0016,One year,52,78.49,No,0.327,Low
+C0410,One year,16,20.65,No,0.327,Low
+C0064,Month-to-month,33,30.86,No,0.326,Low
+C0252,Month-to-month,45,74.92,No,0.323,Low
+C0451,Two year,21,85.54,No,0.323,Low
+C0007,One year,10,77.15,No,0.321,Low
+C0495,Two year,37,34.98,Yes,0.32,Low
+C0321,One year,42,85.59,No,0.319,Low
+C0114,Month-to-month,62,96.25,No,0.318,Low
+C0208,One year,6,36.93,No,0.317,Low
+C0263,One year,62,40.61,No,0.315,Low
+C0490,Month-to-month,61,78.46,Yes,0.314,Low
+C0377,Two year,2,80.2,No,0.314,Low
+C0276,One year,16,50.15,No,0.313,Low
+C0354,Two year,17,102.84,No,0.312,Low
+C0158,Two year,58,100.88,No,0.312,Low
+C0325,One year,12,22.47,No,0.311,Low
+C0400,Month-to-month,62,20.59,Yes,0.311,Low
+C0435,Two year,10,34.58,Yes,0.31,Low
+C0453,One year,51,20.8,No,0.308,Low
+C0300,One year,68,106.45,No,0.308,Low
+C0350,Two year,38,92.14,No,0.307,Low
+C0493,One year,51,104.52,No,0.305,Low
+C0373,One year,25,60.39,Yes,0.3,Low
+C0395,Month-to-month,65,28.15,No,0.3,Low
+C0015,Month-to-month,61,34.86,No,0.299,Low
+C0080,Two year,63,22.6,No,0.299,Low
+C0029,Two year,14,43.8,No,0.299,Low
+C0052,Two year,4,77.85,No,0.297,Low
+C0045,One year,50,55.97,No,0.297,Low
+C0237,Month-to-month,66,66.69,No,0.297,Low
+C0122,Month-to-month,59,102.78,No,0.296,Low
+C0230,Two year,49,59.62,No,0.295,Low
+C0299,Two year,44,35.97,Yes,0.292,Low
+C0371,Month-to-month,72,86.82,No,0.282,Low
+C0387,Month-to-month,45,57.14,No,0.281,Low
+C0085,Month-to-month,61,102.21,No,0.279,Low
+C0160,Two year,18,91.13,No,0.278,Low
+C0399,One year,10,42.64,No,0.277,Low
+C0175,One year,65,67.91,No,0.276,Low
+C0375,One year,39,91.09,No,0.275,Low
+C0473,Two year,65,39.99,No,0.274,Low
+C0184,Month-to-month,68,77.42,Yes,0.272,Low
+C0229,One year,64,75.5,No,0.272,Low
+C0412,Month-to-month,72,63.54,No,0.271,Low
+C0466,One year,42,57.11,No,0.268,Low
+C0104,Month-to-month,43,108.99,Yes,0.265,Low
+C0222,One year,11,87.09,No,0.265,Low
+C0079,Month-to-month,64,59.78,No,0.264,Low
+C0098,Two year,72,28.13,No,0.263,Low
+C0312,One year,13,80.13,No,0.262,Low
+C0116,One year,52,32.77,No,0.262,Low
+C0268,One year,38,24.91,No,0.26,Low
+C0218,One year,8,20.85,No,0.258,Low
+C0443,One year,63,46.96,No,0.258,Low
+C0258,Two year,64,49.06,No,0.257,Low
+C0323,Two year,32,61.08,No,0.256,Low
+C0199,Month-to-month,70,78.82,No,0.254,Low
+C0274,One year,31,42.0,Yes,0.253,Low
+C0405,One year,66,35.09,No,0.249,Low
+C0386,Two year,2,98.73,No,0.248,Low
+C0227,Two year,2,57.24,Yes,0.243,Low
+C0021,Month-to-month,71,24.55,No,0.243,Low
+C0282,One year,70,33.55,Yes,0.243,Low
+C0477,One year,57,103.18,No,0.241,Low
+C0246,One year,23,35.02,No,0.24,Low
+C0500,Two year,1,88.89,No,0.239,Low
+C0424,Two year,27,38.25,No,0.238,Low
+C0404,Two year,28,74.59,No,0.237,Low
+C0068,One year,7,33.43,No,0.236,Low
+C0416,Two year,67,37.53,No,0.235,Low
+C0364,Two year,1,86.26,No,0.235,Low
+C0188,Two year,60,37.35,Yes,0.232,Low
+C0463,Two year,8,43.92,Yes,0.23,Low
+C0162,One year,58,81.21,No,0.227,Low
+C0047,Two year,61,43.33,No,0.225,Low
+C0159,Two year,21,83.86,No,0.217,Low
+C0295,Two year,36,92.78,No,0.216,Low
+C0035,Two year,32,34.33,No,0.215,Low
+C0074,One year,35,68.6,No,0.213,Low
+C0355,One year,68,71.9,No,0.213,Low
+C0406,Month-to-month,67,81.59,No,0.212,Low
+C0465,One year,55,35.01,No,0.211,Low
+C0163,Two year,67,47.37,No,0.21,Low
+C0415,One year,50,75.26,No,0.21,Low
+C0254,Month-to-month,53,109.32,No,0.209,Low
+C0316,One year,36,61.23,No,0.208,Low
+C0100,Two year,39,56.75,No,0.204,Low
+C0044,Two year,19,24.16,No,0.201,Low
+C0281,One year,39,76.04,No,0.201,Low
+C0368,Two year,23,68.82,No,0.201,Low
+C0182,Two year,51,105.91,No,0.2,Low
+C0431,One year,39,70.59,No,0.199,Low
+C0318,One year,61,35.5,No,0.197,Low
+C0093,Two year,14,54.32,No,0.194,Low
+C0374,One year,17,72.56,No,0.194,Low
+C0266,Two year,18,73.06,No,0.193,Low
+C0433,Two year,26,71.83,No,0.193,Low
+C0148,One year,18,84.44,No,0.192,Low
+C0360,Two year,47,93.49,Yes,0.19,Low
+C0034,Two year,31,107.86,No,0.189,Low
+C0331,Two year,52,86.31,No,0.188,Low
+C0151,One year,48,44.0,No,0.188,Low
+C0247,Two year,63,37.56,No,0.187,Low
+C0165,Two year,6,27.31,No,0.187,Low
+C0441,One year,56,77.58,No,0.185,Low
+C0393,Two year,26,86.02,No,0.183,Low
+C0413,One year,58,105.43,No,0.183,Low
+C0434,One year,58,54.3,No,0.183,Low
+C0487,Month-to-month,72,105.37,No,0.178,Low
+C0144,One year,31,32.92,No,0.177,Low
+C0353,Two year,21,57.44,No,0.177,Low
+C0149,Two year,66,109.02,No,0.176,Low
+C0297,Two year,4,83.05,No,0.17,Low
+C0195,One year,63,100.9,No,0.167,Low
+C0425,One year,70,96.32,No,0.166,Low
+C0196,One year,40,21.96,No,0.164,Low
+C0043,One year,37,79.75,No,0.161,Low
+C0348,Two year,62,41.11,No,0.16,Low
+C0392,Two year,60,52.29,No,0.155,Low
+C0430,One year,49,33.13,No,0.154,Low
+C0088,Two year,5,26.16,No,0.154,Low
+C0464,Two year,13,85.27,No,0.154,Low
+C0176,Two year,40,98.49,No,0.148,Low
+C0092,Two year,39,106.58,No,0.148,Low
+C0313,Two year,61,99.35,No,0.148,Low
+C0141,Two year,61,94.8,No,0.146,Low
+C0357,Two year,22,87.63,No,0.146,Low
+C0394,Two year,71,68.91,No,0.139,Low
+C0407,Two year,69,87.71,No,0.138,Low
+C0257,One year,59,79.77,No,0.137,Low
+C0484,Two year,36,33.65,No,0.136,Low
+C0488,Two year,53,47.3,No,0.136,Low
+C0250,One year,47,94.03,No,0.135,Low
+C0033,Two year,27,42.46,No,0.133,Low
+C0436,One year,47,72.82,No,0.132,Low
+C0283,Two year,40,38.47,Yes,0.13,Low
+C0369,One year,69,98.97,Yes,0.129,Low
+C0177,One year,62,67.18,Yes,0.127,Low
+C0214,One year,53,95.83,No,0.123,Low
+C0475,One year,68,41.81,No,0.123,Low
+C0272,One year,69,33.74,No,0.122,Low
+C0094,Two year,64,89.82,No,0.12,Low
+C0136,Two year,37,90.54,No,0.116,Low
+C0305,Two year,53,99.36,No,0.115,Low
+C0065,One year,68,45.47,No,0.113,Low
+C0204,Two year,67,57.22,Yes,0.11,Low
+C0179,Two year,62,53.91,No,0.109,Low
+C0279,Two year,41,94.34,No,0.103,Low
+C0070,Two year,27,38.99,No,0.101,Low
+C0205,Two year,49,48.69,No,0.098,Low
+C0367,Two year,71,84.07,No,0.098,Low
+C0301,Two year,56,106.46,No,0.097,Low
+C0271,Two year,51,45.78,No,0.096,Low
+C0418,One year,72,51.33,No,0.096,Low
+C0330,Two year,52,48.76,No,0.095,Low
+C0420,Two year,33,59.85,No,0.094,Low
+C0326,One year,66,97.82,No,0.093,Low
+C0402,One year,62,73.17,No,0.083,Low
+C0486,Two year,40,83.46,No,0.082,Low
+C0492,Two year,63,49.24,No,0.08,Low
+C0284,Two year,67,83.08,No,0.079,Low
+C0332,Two year,46,47.02,No,0.079,Low
+C0498,One year,66,105.48,No,0.079,Low
+C0097,Two year,62,87.19,No,0.066,Low
+C0169,Two year,54,106.64,No,0.063,Low
+C0054,Two year,45,78.51,No,0.059,Low
+C0322,Two year,66,25.91,No,0.055,Low
+C0200,Two year,60,84.72,No,0.052,Low
+C0440,Two year,60,104.14,No,0.046,Low

@@ -20,7 +20,10 @@ def encode_features(df: pd.DataFrame) -> pd.DataFrame:
     for col in ["gender", "online_security", "tech_support"]:
         df[col] = df[col].map(lambda x: binary_map.get(x, 0))
 
-    df = pd.get_dummies(df, columns=["contract", "internet_service", "payment_method"], drop_first=True)
+    # dtype=int: boolean dummies would be dropped by select_dtypes("number") below
+    df = pd.get_dummies(
+        df, columns=["contract", "internet_service", "payment_method"], drop_first=True, dtype=int
+    )
     return df
 
 

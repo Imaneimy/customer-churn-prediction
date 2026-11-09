@@ -24,13 +24,15 @@ def trained():
 
 
 # TC-MOD-001
-def test_model_accuracy_above_threshold(trained):
-    assert trained["results"]["accuracy"] >= 0.70
+# Accuracy is misleading here (predicting "stays" for everyone scores ~70%),
+# so the model is judged on how many churners it actually catches.
+def test_model_catches_at_least_half_of_churners(trained):
+    assert trained["results"]["recall_churn"] >= 0.50
 
 
 # TC-MOD-002
 def test_roc_auc_above_threshold(trained):
-    assert trained["results"]["roc_auc"] >= 0.50
+    assert trained["results"]["roc_auc"] >= 0.65
 
 
 # TC-MOD-003
@@ -68,3 +70,29 @@ def test_split_stratified(trained):
     X, y = get_feature_matrix(encoded)
     _, _, y_train, y_test = split_data(X, y)
     assert abs(y_train.mean() - y_test.mean()) < 0.05
+
+
+# TC-MOD-009 (regression): categorical dummies used to be silently dropped
+def test_categorical_features_reach_the_model(trained):
+    cols = trained["X"].columns
+    for prefix in ["contract_", "internet_service_", "payment_method_"]:
+        assert any(c.startswith(prefix) for c in cols), prefix
+
+
+# TC-MOD-010
+def test_cross_validated_auc_is_stable():
+    from model import cross_validated_auc
+    df = load_customers(DATA)
+    X, y = get_feature_matrix(encode_features(df))
+    mean, std = cross_validated_auc(X, y)
+    assert mean >= 0.65 and std < 0.1
+
+
+# TC-MOD-011
+def test_scored_customers_are_ranked_with_valid_probabilities(trained):
+    from model import score_customers
+    df = load_customers(DATA)
+    scored = score_customers(trained["clf"], trained["scaler"], df, trained["X"])
+    assert len(scored) == len(df)
+    assert scored["churn_probability"].between(0, 1).all()
+    assert scored["churn_probability"].is_monotonic_decreasing
